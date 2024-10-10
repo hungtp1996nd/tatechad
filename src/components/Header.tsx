@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -11,18 +12,22 @@ export default function Header() {
         className="rounded-full"
       />
       <div className="flex items-center lg:gap-6 gap-2">
-        <Image
-          src="https://poolsplash.fun/wp-content/uploads/2024/09/Untitled-design-44.png"
-          height={80}
-          width={80}
-          alt="tele"
-        />
-        <Image
-          src="https://poolsplash.fun/wp-content/uploads/2024/09/1.png"
-          height={80}
-          width={80}
-          alt="tele"
-        />
+        <Link href="https://t.me/gigachadincryptotatechad" target="_blank">
+          <Image
+            src="https://poolsplash.fun/wp-content/uploads/2024/09/Untitled-design-44.png"
+            height={80}
+            width={80}
+            alt="tele"
+          />
+        </Link>
+        <Link href="https://x.com/tatechadonsol" target="_blank">
+          <Image
+            src="https://poolsplash.fun/wp-content/uploads/2024/09/1.png"
+            height={80}
+            width={80}
+            alt="tele"
+          />
+        </Link>
       </div>
     </header>
   );

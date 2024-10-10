@@ -1,6 +1,6 @@
 export default function InfiniteText() {
   return (
-    <div className="flex lg:gap-8 gap-2 items-center animate-loop-scroll w-full p-8 bg-black">
+    <div className="flex lg:gap-8 gap-2 items-center animate-loop-scroll w-full p-8 bg-transparent">
       {Array.from({ length: 6 }, (_, i) => (
         <span
           key={i}

@@ -6,7 +6,7 @@ export default function Introduction() {
       <div className="flex flex-col lg:grid lg:grid-cols-7 h-[80vh] bg-black text-bg-text">
         <div className="lg:col-span-2 flex items-center justify-center">
           <h2 className="text-primary font-bold text-[42px] text-center">
-            I'm Diddy and ya are my son. Call me Daddy mfers!
+            Embrace the Hustle, Unleash the Gigachad Tate!
           </h2>
         </div>
         <div className="lg:col-span-3 flex flex-col gap-4 items-center justify-center">
@@ -16,12 +16,19 @@ export default function Introduction() {
             width={480}
             height={480}
             alt="introduction"
-            className="rounded-full z-50"
+            className="rounded-full z-50 hidden lg:block"
+          />
+          <Image
+            src="/logo.png"
+            width={360}
+            height={360}
+            alt="introduction"
+            className="rounded-full z-50 block lg:hidden"
           />
         </div>
         <div className="lg:col-span-2 flex items-center justify-center">
           <h2 className="text-primary font-bold text-[42px] text-center">
-            I'm Diddy and ya are my son. Call me Daddy mfers!
+            Embrace the Hustle, Unleash the Gigachad Tate!
           </h2>
         </div>
       </div>
@@ -32,16 +39,11 @@ export default function Introduction() {
           width={0}
           height={120}
           sizes="100vw"
-          className="w-full lg:h-[500px] h-[300px] absolute lg:top-[-200px] max-lg:top-[-70px]"
+          className="w-full lg:h-[500px] h-[200px] absolute lg:top-[-200px] max-lg:top-[20px]"
         />
-        <div className="lg:h-[40vh] flex justify-center items-center lg:px-48 px-4 z-50">
-          <h2 className="text-white font-semibold lg:text-[35px] text-lg text-center lg:leading-10 z-50 text-primary">
-            {" "}
-            Introducing DIDDY, the memecoin that's all about fun and community!
-            With the playful spirit of "I'm Diddy and ya are my son," we're here
-            to create a vibrant ecosystem where everyone feels like family. Join
-            us on this exciting journey and let's build a thriving community
-            together—call me Daddy, mfers!
+        <div className="lg:h-[48vh] xl:h-[40vh] 2xl:h-[36vh] 4xl:h-[28vh] 5xl:h-[21vh] flex justify-center items-center lg:px-48 px-4 z-50">
+          <h2 className="text-white font-semibold lg:text-[35px] text-lg text-center lg:leading-10 z-50">
+            {`Tate, known for his bold moves and lavish lifestyle, is seen as the "Giga Chad" of crypto. His high-risk strategies and huge profits attract young investors, making him a standout figure in the crypto world.`}
           </h2>
         </div>
       </div>
