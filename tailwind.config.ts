@@ -30,7 +30,7 @@ const config: Config = {
         ...defaultTheme.screens,
       },
       animation: {
-        "loop-scroll": "loop-scroll 50s linear infinite",
+        "loop-scroll": "loop-scroll 5s linear infinite",
       },
       keyframes: {
         "loop-scroll": {

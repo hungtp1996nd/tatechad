@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="h-[130px] bg-primary lg:px-60 px-4 py-5 flex justify-between">
+    <header className="h-[130px] bg-black lg:px-60 px-4 py-5 flex justify-between">
       <Image
         src="/logo.png"
         width={90}

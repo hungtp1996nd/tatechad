@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${chpFire.variable}`}>
+      <body className={`${chpFire.variable} bg-black `}>
         {children}
       </body>
     </html>
