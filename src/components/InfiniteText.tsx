@@ -5,13 +5,13 @@ export default function InfiniteText() {
         <span
           key={i}
           className="max-w-none uppercase text-3xl font-semibold hidden lg:block bg-black text-primary"
-        >{`$BETALIK`}</span>
+        >{`$BELTALIK`}</span>
       ))}
       {Array.from({ length: 4 }, (_, i) => (
         <span
           key={i}
           className="max-w-none uppercase text-base font-semibold block lg:hidden bg-black text-primary"
-        >{`$BETALIK`}</span>
+        >{`$BELTALIK`}</span>
       ))}
     </div>
   );

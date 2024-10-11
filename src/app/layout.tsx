@@ -9,7 +9,7 @@ const chpFire = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "$BETALIK",
+  title: "$BELTALIK",
   description: "Vitalik Buterin has emerged as a surprising candidate for the 2024 Nobel Prize in Economics.",
 };
 
