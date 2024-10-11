@@ -12,7 +12,7 @@ export default function Header() {
         className="rounded-full"
       />
       <div className="flex items-center lg:gap-6 gap-2">
-        <Link href="https://t.me/gigachadincryptotatechad" target="_blank">
+        <Link href="https://t.me/Beltalikcoinso" target="_blank">
           <Image
             src="https://poolsplash.fun/wp-content/uploads/2024/09/Untitled-design-44.png"
             height={80}
@@ -20,7 +20,7 @@ export default function Header() {
             alt="tele"
           />
         </Link>
-        <Link href="https://x.com/tatechadonsol" target="_blank">
+        <Link href="https://x.com/Beltalikconsol" target="_blank">
           <Image
             src="https://poolsplash.fun/wp-content/uploads/2024/09/1.png"
             height={80}
