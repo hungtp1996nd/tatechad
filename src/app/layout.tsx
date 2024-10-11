@@ -4,7 +4,7 @@ import "./globals.css";
 
 const chpFire = localFont({
   weight: "400",
-  src: "../fonts/chp-fire.ttf",
+  src: "../fonts/pixelmix.ttf",
   variable: "--font-chpfire",
 });
 

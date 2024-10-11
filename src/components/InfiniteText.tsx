@@ -4,14 +4,14 @@ export default function InfiniteText() {
       {Array.from({ length: 6 }, (_, i) => (
         <span
           key={i}
-          className="max-w-none uppercase text-3xl font-semibold hidden lg:block bg-black text-red-500"
-        >{`-> $TATECHAD`}</span>
+          className="max-w-none uppercase text-3xl font-semibold hidden lg:block bg-black text-primary"
+        >{`$BETALIK`}</span>
       ))}
       {Array.from({ length: 4 }, (_, i) => (
         <span
           key={i}
-          className="max-w-none uppercase text-base font-semibold block lg:hidden bg-black text-red-500"
-        >{`-> TATECHAD`}</span>
+          className="max-w-none uppercase text-base font-semibold block lg:hidden bg-black text-primary"
+        >{`$BETALIK`}</span>
       ))}
     </div>
   );

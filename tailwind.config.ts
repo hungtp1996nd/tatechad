@@ -20,7 +20,7 @@ const config: Config = {
         "secondary-bg": "#2ecc71",
         "btn-bg": "#F9B700",
         "btn-color": "#400071",
-        primary: "#7f8c8d",
+        primary: "#fde259",
         "bg-text": "#bdc3c7",
       },
       screens: {
